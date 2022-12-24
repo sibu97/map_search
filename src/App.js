@@ -14,15 +14,14 @@ function App() {
       </div>
      <div  style={{
         display: "flex",
-        border:"2px solid red",
-      // flexDirection: "row",
+      flexDirection: "row",
       width: "100vw",
       height: "100vh",
        }} >
-          <div style={{ width: "50vw"}}>
+          <div style={{ width: "50vw",height:'100%'}}>
             <Maps/>
         </div>
-        <div style={{ width: "50vw"}}>
+        <div style={{ border:"2px solid red",width: "50vw"}}>
         <SearchBox/>
          </div>
       </div>
