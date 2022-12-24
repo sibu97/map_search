@@ -1,28 +1,32 @@
 import React from "react";
 import './App.css';
-import { NavBar } from './compnents/Navbar';
-import Maps from "./compnents/Map";
+import { Navbar } from './components/Navbar';
+import Maps from "./components/Map";
+import SearchBox from "./components/SearchBox";
+
 
 function App() {
  
   return (
-    <>
+    <div  className="App">
       <div style={{ backgroundColor: 'teal', height: "50px", width: "100vw" }}>
-        <NavBar  />
+        <Navbar/>
       </div>
-     <div className="App" style={{
+     <div  style={{
         display: "flex",
         border:"2px solid red",
-      flexDirection: "row",
-      width: "auto",
-      height: "100%",
+      // flexDirection: "row",
+      width: "100vw",
+      height: "100vh",
        }} >
-          <div style={{ width: "50vw", height: "100%",margin:"0%" }}>
+          <div style={{ width: "50vw"}}>
             <Maps/>
-          </div>
-      
+        </div>
+        <div style={{ width: "50vw"}}>
+        <SearchBox/>
+         </div>
       </div>
-    </>
+    </div>
   );
 }
 
