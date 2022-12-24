@@ -18,12 +18,11 @@ function App() {
       width: "100vw",
       height: "93vh",
       }} >
-        <div style={{ border: "2px solid red", width: "50vw" }}>
-           <SearchBox/>
-        </div>
-        
           <div style={{ width: "50vw",height:'100%'}}>
             <Maps/>
+        </div>
+        <div style={{ border: "2px solid red", width: "50vw" }}>
+           <SearchBox/>
         </div>
         
       </div>
