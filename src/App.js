@@ -16,7 +16,7 @@ function App() {
         display: "flex",
       flexDirection: "row",
       width: "100vw",
-      height: "100vh",
+      height: "93vh",
        }} >
           <div style={{ width: "50vw",height:'100%'}}>
             <Maps/>
