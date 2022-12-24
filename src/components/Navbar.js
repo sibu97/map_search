@@ -5,7 +5,7 @@ export class Navbar extends React.Component{
     render(){
         return(
             <div className="NavBar" >
-                <h3>Mymap Search</h3>
+                <h1 style={{color:'white'}}>Mymap Search</h1>
             </div>
         )
     }
