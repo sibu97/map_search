@@ -8,8 +8,6 @@ import SearchBox from "./components/SearchBox";
 function App() {
 
   const [selectPosition, setSelectPosition] = useState(null);
- 
-  console.log(selectPosition);
 
   return (
     <div  className="App">
@@ -25,7 +23,7 @@ function App() {
           <div style={{ width: "50vw",height:'100%'}}>
             <Maps selectPosition={selectPosition} />
         </div>
-        <div style={{ border: "2px solid red", width: "50vw" }}>
+        <div style={{ width: "50vw" }}>
            <SearchBox selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
         </div>
         
